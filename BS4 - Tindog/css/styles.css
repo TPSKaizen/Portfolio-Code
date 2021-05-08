@@ -1,0 +1,172 @@
+body{
+  text-align:center;
+}
+
+h1,h3,h3{
+   font-family: "Montserrat-Bold", "sans-serif";
+}
+
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+#title{
+  text-align:left
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.title-head{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.nav-item{
+  padding-left:1rem;
+  padding-right:1rem;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.dog-phone{
+  width:55%;
+  transform:rotate(30deg);
+  position:absolute;
+  right:30%;
+}
+
+.navbar-brand h1{
+  font-family: "Ubuntu";
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.sec-one{
+  margin:  5% 3% 5% 0;
+}
+
+/* Features section*/
+
+#features{
+  position:relative;
+  z-index:1;
+}
+
+#features i{
+  color: #ef8172;
+  font-size:3rem;
+  padding-bottom:0.5rem;
+}
+
+
+#features .row h3{
+  font-size: 1.5rem;
+}
+
+#features .row p{
+  color: #8f8f8f;
+  padding: 0 15% 0 15%;
+}
+
+#features i:hover{
+  color: #ff4c68 ;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#testimonials h2{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight:bold;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom:2.2rem;
+}
+
+.press-img{
+  width:12%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+.pricing-column{
+  padding:3% 2%;
+}
+
+/* CTA Section */
+
+#cta h3{
+  font-weight:bold;
+  color: #fff;
+  font-size : 4rem;
+}
+
+#cta button{
+  margin: 2rem 1%;
+  font-size: 1.2rem;
+}
+
+/* Footer Section */
+#footer .containter-fluid{
+  padding: 2% 15%;
+}
+
+#footer i{
+  color:#000;
+  padding: 0 0.5rem;
+}
+
+#footer p{
+  color: #b2b0b0;
+}
+
+.icon-tray{
+  margin-bottom:1%;
+}
+
+
+@media (max-width:992px){
+
+  #title{
+    text-align:center;
+  }
+    .dog-phone{
+      position:static;
+      transform: rotate(0);
+    }
+}

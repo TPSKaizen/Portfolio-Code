@@ -1,0 +1,32 @@
+body{
+  text-align: center;
+  background-color: #393E46;
+}
+
+#Heading h1{
+  font-family: 'Lobster', sans-serif;
+  font-size:8rem;
+  font-weight:bold;
+  margin: 2rem 5rem 5rem 5rem;
+}
+
+#gameSection{
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+footer, #gameSection {
+  font-family: 'Comic Neue', sans-serif;
+}
+
+footer p{
+  color: #fff;
+}
+
+.greenText{
+  color:#4ECCA3;
+}
+
+.paddingFix{
+  padding: 2% 15%;
+}
